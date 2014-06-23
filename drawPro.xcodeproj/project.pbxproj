@@ -21,6 +21,8 @@
 		9891A1B51957C2D700F10712 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9891A1971957C2D600F10712 /* UIKit.framework */; };
 		9891A1BD1957C2D700F10712 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9891A1BB1957C2D700F10712 /* InfoPlist.strings */; };
 		9891A1BF1957C2D700F10712 /* drawProTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9891A1BE1957C2D700F10712 /* drawProTests.m */; };
+		9891A1CA1957CF9500F10712 /* icon_info.png in Resources */ = {isa = PBXBuildFile; fileRef = 9891A1C91957CF9500F10712 /* icon_info.png */; };
+		9891A1CD1957DAF000F10712 /* MYDrawSubView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9891A1CC1957DAF000F10712 /* MYDrawSubView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		9891A1BA1957C2D700F10712 /* drawProTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "drawProTests-Info.plist"; sourceTree = "<group>"; };
 		9891A1BC1957C2D700F10712 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9891A1BE1957C2D700F10712 /* drawProTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = drawProTests.m; sourceTree = "<group>"; };
+		9891A1C91957CF9500F10712 /* icon_info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_info.png; sourceTree = "<group>"; };
+		9891A1CB1957DAF000F10712 /* MYDrawSubView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYDrawSubView.h; sourceTree = "<group>"; };
+		9891A1CC1957DAF000F10712 /* MYDrawSubView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYDrawSubView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +117,14 @@
 		9891A1991957C2D600F10712 /* drawPro */ = {
 			isa = PBXGroup;
 			children = (
+				9891A1C81957CF9500F10712 /* images */,
 				9891A1A21957C2D600F10712 /* MYAppDelegate.h */,
 				9891A1A31957C2D600F10712 /* MYAppDelegate.m */,
 				9891A1A51957C2D600F10712 /* Main.storyboard */,
 				9891A1A81957C2D600F10712 /* MYViewController.h */,
 				9891A1A91957C2D600F10712 /* MYViewController.m */,
+				9891A1CB1957DAF000F10712 /* MYDrawSubView.h */,
+				9891A1CC1957DAF000F10712 /* MYDrawSubView.m */,
 				9891A1AB1957C2D700F10712 /* Images.xcassets */,
 				9891A19A1957C2D600F10712 /* Supporting Files */,
 			);
@@ -150,6 +158,14 @@
 				9891A1BB1957C2D700F10712 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9891A1C81957CF9500F10712 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				9891A1C91957CF9500F10712 /* icon_info.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9891A1CA1957CF9500F10712 /* icon_info.png in Resources */,
 				9891A1AC1957C2D700F10712 /* Images.xcassets in Resources */,
 				9891A19E1957C2D600F10712 /* InfoPlist.strings in Resources */,
 				9891A1A71957C2D600F10712 /* Main.storyboard in Resources */,
@@ -253,6 +270,7 @@
 				9891A1AA1957C2D600F10712 /* MYViewController.m in Sources */,
 				9891A1A41957C2D600F10712 /* MYAppDelegate.m in Sources */,
 				9891A1A01957C2D600F10712 /* main.m in Sources */,
+				9891A1CD1957DAF000F10712 /* MYDrawSubView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
